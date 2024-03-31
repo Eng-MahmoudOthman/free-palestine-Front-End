@@ -24,6 +24,25 @@ export default function ProductContextProvider(props){
    const [metadata , setMetadata] = useState({}) ;
 
 
+// & NotSleepServer  : 
+   setInterval(() => {
+      let count = 0 ;
+      async function NotSleepServer(){
+         let response =   await axios.get(`https://free-palestine-back-end.onrender.com/api/v1/products?limit=1`)
+         .catch((error)=>{
+            console.log(error.response?.data.message);
+            count--
+         })
+         if(response?.data.message === "success"){
+            console.log(response);
+            count++
+         }
+      }
+      NotSleepServer()
+      console.log(count);
+   }, 5000);
+
+
 
    //& Get Active Product :
    async function getNotActiveProduct(){
