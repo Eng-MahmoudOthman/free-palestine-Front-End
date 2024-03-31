@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/free-palestine-Front-End/static/css/main.65f68065.css",
+    "main.css": "/free-palestine-Front-End/static/css/main.1b2c0ad2.css",
     "main.js": "/free-palestine-Front-End/static/js/main.c81e4bbc.js",
     "static/js/453.53aea69d.chunk.js": "/free-palestine-Front-End/static/js/453.53aea69d.chunk.js",
     "static/media/home2.gif": "/free-palestine-Front-End/static/media/home2.f7a9a268bca13dd42522.gif",
@@ -21,12 +21,12 @@
     "static/media/profile.webp": "/free-palestine-Front-End/static/media/profile.3571bdfce63ad3cdab4a.webp",
     "static/media/fa-v4compatibility.woff2": "/free-palestine-Front-End/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/free-palestine-Front-End/index.html",
-    "main.65f68065.css.map": "/free-palestine-Front-End/static/css/main.65f68065.css.map",
+    "main.1b2c0ad2.css.map": "/free-palestine-Front-End/static/css/main.1b2c0ad2.css.map",
     "main.c81e4bbc.js.map": "/free-palestine-Front-End/static/js/main.c81e4bbc.js.map",
     "453.53aea69d.chunk.js.map": "/free-palestine-Front-End/static/js/453.53aea69d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65f68065.css",
+    "static/css/main.1b2c0ad2.css",
     "static/js/main.c81e4bbc.js"
   ]
 }
