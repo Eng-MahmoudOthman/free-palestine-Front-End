@@ -140,18 +140,3 @@ useEffect(()=>{
 }
 
 export default App;
-
-
-
-// let header = {
-//   token:localStorage.getItem("userToken"),
-// };
-
-
-// //^ Function Add to Cart :
-// async function addToCart (productId){
-//   // axios.post("url" , {body} , { header});
-//   return await axios.post(`https://ecommerce.routemisr.com/api/v1/cart` ,{productId:productId},{headers:header})
-//   .then((response)=>response)
-//   .catch((error)=>error);
-// }

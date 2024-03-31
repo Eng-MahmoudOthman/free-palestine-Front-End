@@ -1,6 +1,5 @@
 import axios from "axios";
 import { createContext, useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 
 export let UserContext = createContext();
@@ -8,7 +7,6 @@ export let UserContext = createContext();
 
 export default function UserContextProvider(props){
 
-   // const navigate = useNavigate();
 
    const [user , setUser] = useState({}) ;
 
