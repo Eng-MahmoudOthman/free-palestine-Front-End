@@ -28,7 +28,7 @@ export default function ProductContextProvider(props){
    //& Get Active Product :
    async function getNotActiveProduct(){
       setLoading(true)
-      let response =   await axios.get(`http://localhost:5000/api/v1/products?active=false&&isProcess=true`)
+      let response =   await axios.get(`https://free-palestine-back-end.onrender.com/api/v1/products?active=false&&isProcess=true`)
       .catch((error)=>{
          // console.log(error.response?.data.message);
          // setError(error.response?.data.message);
@@ -47,7 +47,7 @@ export default function ProductContextProvider(props){
    //& Get Rejected Product :
    async function getRejectedProduct(){
       setLoading(true)
-      let response =   await axios.get(`http://localhost:5000/api/v1/products?active=false&isProcess=false`)
+      let response =   await axios.get(`https://free-palestine-back-end.onrender.com/api/v1/products?active=false&isProcess=false`)
       .catch((error)=>{
          console.log(error.response?.data.message);
          setLoading(false)
@@ -71,7 +71,7 @@ export default function ProductContextProvider(props){
       };
       console.log(header);
 
-      let response =   await axios.patch(`http://localhost:5000/api/v1/products/active/${id}` , {} ,  {headers:header}  )
+      let response =   await axios.patch(`https://free-palestine-back-end.onrender.com/api/v1/products/active/${id}` , {} ,  {headers:header}  )
       .catch((error)=>{
          console.log(error);
          // setError(error.response?.data.message);
@@ -98,7 +98,7 @@ export default function ProductContextProvider(props){
       };
       console.log(header);
 
-      let response =   await axios.patch(`http://localhost:5000/api/v1/products/block/${id}`  , {} ,  {headers:header} )
+      let response =   await axios.patch(`https://free-palestine-back-end.onrender.com/api/v1/products/block/${id}`  , {} ,  {headers:header} )
       .catch((error)=>{
          console.log(error.response?.data.message);
          // setError(error.response?.data.message);
@@ -115,7 +115,7 @@ export default function ProductContextProvider(props){
    //& Get Product Details :
    async function getProductDetails(id){
       setLoading(true)
-      let response =   await axios.get(`http://localhost:5000/api/v1/products/${id}`)
+      let response =   await axios.get(`https://free-palestine-back-end.onrender.com/api/v1/products/${id}`)
       .catch((error)=>{
          // console.log(error.response?.data.message);
          setError(error.response?.data.message);

@@ -17,7 +17,7 @@ export default function CategoriesAdminHome() {
       };
 
       function getCategories(){
-         return axios.get(`http://localhost:5000/api/v1/categories` ,  {headers:header} )
+         return axios.get(`https://free-palestine-back-end.onrender.com/api/v1/categories` ,  {headers:header} )
       }
       const {data , dataUpdatedAt , isError , isFetched , isLoading , refetch , remove} = useQuery("getCategories" , getCategories)
 
@@ -25,7 +25,7 @@ export default function CategoriesAdminHome() {
 
       async function deleteCategory(e , id){
          if (window.confirm("Are You Sure Delete Category") === true) {
-            let response =   await axios.delete(`http://localhost:5000/api/v1/categories/${id}` ,  {headers:header} )
+            let response =   await axios.delete(`https://free-palestine-back-end.onrender.com/api/v1/categories/${id}` ,  {headers:header} )
             .catch((error)=>{
                console.log(error.response?.data.message);
                toast.error(error.response?.data.message)

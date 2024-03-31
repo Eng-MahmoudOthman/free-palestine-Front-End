@@ -19,7 +19,7 @@ export default function Report() {
       values.product = params.id
       let header = {token:localStorage.getItem("token")}
 
-      await axios.post("http://localhost:5000/api/v1/reports" , values , {headers:header})
+      await axios.post("https://free-palestine-back-end.onrender.com/api/v1/reports" , values , {headers:header})
       .then((response)=>{
          if(response.data.message === "success"){
             toast.success(response.data.message) ;

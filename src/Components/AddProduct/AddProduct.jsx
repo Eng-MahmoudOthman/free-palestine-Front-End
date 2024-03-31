@@ -40,7 +40,7 @@ export default function AddProduct() {
 
 
       formData.append('file',file )
-      axios.post("http://localhost:5000/api/v1/products" ,formData,{headers})
+      axios.post("https://free-palestine-back-end.onrender.com/api/v1/products" ,formData,{headers})
       .then((response)=>{
          setIsLoadingAdded(false)
          toast.success(response.data?.message);

@@ -17,7 +17,7 @@ export default function CompanyAdminHome() {
       };
 
       function getCompany(){
-         return axios.get(`http://localhost:5000/api/v1/company` ,  {headers:header} )
+         return axios.get(`https://free-palestine-back-end.onrender.com/api/v1/company` ,  {headers:header} )
       }
       const {data , dataUpdatedAt , isError , isFetched , isLoading , refetch , remove} = useQuery("getCompany" , getCompany)
 
@@ -25,7 +25,7 @@ export default function CompanyAdminHome() {
 
       async function deleteCompany(e , id){
          if (window.confirm("Are You Sure Delete Company") === true) {
-            let response =   await axios.delete(`http://localhost:5000/api/v1/Company/${id}` ,  {headers:header} )
+            let response =   await axios.delete(`https://free-palestine-back-end.onrender.com/api/v1/Company/${id}` ,  {headers:header} )
             .catch((error)=>{
                console.log(error.response?.data.message);
                toast.error(error.response?.data.message)

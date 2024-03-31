@@ -40,7 +40,7 @@ export default function UpdateUser() {
       }
       console.log(valuesData);
 
-      let {data} = await axios.put(`http://localhost:5000/api/v1/users/${id}` , valuesData , {headers:header})
+      let {data} = await axios.put(`https://free-palestine-back-end.onrender.com/api/v1/users/${id}` , valuesData , {headers:header})
       .catch((error)=>{
          setError(error.response.data.message)
          toast.error(error.response.data.message)

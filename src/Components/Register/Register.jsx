@@ -13,7 +13,7 @@ export default function Register(){
    const [error , setError] = useState(null)
 
    async function submitRegister(values){
-      let {data} = await axios.post("http://localhost:5000/api/v1/auth/signUp" , values)
+      let {data} = await axios.post("https://free-palestine-back-end.onrender.com/api/v1/auth/signUp" , values)
       .catch((error)=>{
          setError(error.response.data.message)
          toast.error(error.response.data.message)

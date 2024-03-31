@@ -22,7 +22,7 @@ export default function Products() {
 
    async function getData(){
       setLoading(true)
-      let response =   await axios.get(`http://localhost:5000/api/v1/categories/${params.id}/products` )
+      let response =   await axios.get(`https://free-palestine-back-end.onrender.com/api/v1/categories/${params.id}/products` )
       .catch((error)=>{
          // console.log(error.response?.data.message);
 

@@ -27,7 +27,7 @@ export default function Category() {
          token:localStorage.getItem("token"),
       };
 
-      let response =   await axios.get(`http://localhost:5000/api/v1/categories?${keyword}&limit=${limit}` ,  {headers:header} )
+      let response =   await axios.get(`https://free-palestine-back-end.onrender.com/api/v1/categories?${keyword}&limit=${limit}` ,  {headers:header} )
       .catch((error)=>{
          setError(error.response?.data.message)
          setLoading(false)
@@ -53,7 +53,7 @@ export default function Category() {
          token:localStorage.getItem("token"),
       };
 
-      let response =   await axios.get(`http://localhost:5000/api/v1/categories?page=${pageNumber}&limit=50` ,  {headers:header} )
+      let response =   await axios.get(`https://free-palestine-back-end.onrender.com/api/v1/categories?page=${pageNumber}&limit=50` ,  {headers:header} )
       .catch((error)=>{
          setError(error.response?.data.message)
          setLoading(false)

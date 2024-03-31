@@ -25,7 +25,7 @@ export default function GetAllProductsAdmin() {
    //& Get All Product in DashBoard Admin :
    async function getAllProductsAdmin(){
       // setLoading(true)
-      let response =   await axios.get(`http://localhost:5000/api/v1/products`)
+      let response =   await axios.get(`https://free-palestine-back-end.onrender.com/api/v1/products`)
       .catch((error)=>{
          // console.log(error.response?.data.message);
          setError(error.response?.data.message);
@@ -50,7 +50,7 @@ export default function GetAllProductsAdmin() {
 				token:localStorage.getItem("token"),
 			};
 	
-			let response =   await axios.delete(`http://localhost:5000/api/v1/products/${id}` ,  {headers:header} )
+			let response =   await axios.delete(`https://free-palestine-back-end.onrender.com/api/v1/products/${id}` ,  {headers:header} )
 			.catch((error)=>{
 				console.log(error.response?.data.message);
 				setIsError(error.response?.data.message);

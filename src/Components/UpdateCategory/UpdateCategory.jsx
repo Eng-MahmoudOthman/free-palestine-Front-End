@@ -17,7 +17,7 @@ export default function UpdateCategory() {
    }
 
       async function updateCategory(values){
-         let {data} = await axios.put(`http://localhost:5000/api/v1/categories/${params.id}` , values , {headers:header})
+         let {data} = await axios.put(`https://free-palestine-back-end.onrender.com/api/v1/categories/${params.id}` , values , {headers:header})
          .catch((error)=>{
             setError(error.response.data.message)
             toast.error(error.response.data.message)

@@ -16,7 +16,7 @@ export default function ChangePassword() {
          token:localStorage.getItem("token"),
       };
 
-      await axios.patch("http://localhost:5000/api/v1/auth/changePassword" , values , {headers:header}  )
+      await axios.patch("https://free-palestine-back-end.onrender.com/api/v1/auth/changePassword" , values , {headers:header}  )
       .then((response)=>{
          if(response.data.message === "success"){
             toast.success(`${response.data.message} Change Password`);

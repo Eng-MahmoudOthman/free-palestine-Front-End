@@ -18,7 +18,7 @@ export default function AddUserAdmin() {
    }
 
    async function submitAddUser(values){
-      let {data} = await axios.post("http://localhost:5000/api/v1/users" , values , {headers:header})
+      let {data} = await axios.post("https://free-palestine-back-end.onrender.com/api/v1/users" , values , {headers:header})
       .catch((error)=>{
          // setError(error.response.data.message)
          toast.error(error.response.data.message)

@@ -12,7 +12,7 @@ export default function CategoryDetailsAdmin() {
    };
 
    function getSpecificCategory(){
-      return axios.get(`   http://localhost:5000/api/v1/categories/${params.id}` ,  {headers:header} )
+      return axios.get(`https://free-palestine-back-end.onrender.com/api/v1/categories/${params.id}` ,  {headers:header} )
    }
 
 

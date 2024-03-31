@@ -18,7 +18,7 @@ export default function CategoryContextProvider(props){
 
       //& Get All Category By Page :
       async function getCategoryName(id){
-         let response =   await axios.get(`http://localhost:5000/api/v1/categories/${id}`)
+         let response =   await axios.get(`https://free-palestine-back-end.onrender.com/api/v1/categories/${id}`)
          .catch((error)=>{
             // setErrorCategoryName(error.response?.data.message);
             // console.log(error);
@@ -40,7 +40,7 @@ export default function CategoryContextProvider(props){
             token:localStorage.getItem("token"),
          };
    
-         let response =   await axios.get(`http://localhost:5000/api/v1/categories` ,  {headers:header} )
+         let response =   await axios.get(`https://free-palestine-back-end.onrender.com/api/v1/categories` ,  {headers:header} )
          .catch((error)=>{
             setErrorCategory(error.response?.data.message);
          })

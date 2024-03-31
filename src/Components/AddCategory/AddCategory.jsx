@@ -21,7 +21,7 @@ export default function AddCategory() {
          formData.append('description' , values.description);
 
          formData.append('file',file )
-         axios.post("http://localhost:5000/api/v1/categories" ,formData,{headers})
+         axios.post("https://free-palestine-back-end.onrender.com/api/v1/categories" ,formData,{headers})
          .then((response)=>{
             setIsLoadingAdded(false)
             toast.success(response.data?.message);

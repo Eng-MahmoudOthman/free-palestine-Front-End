@@ -14,7 +14,7 @@ export default function ReportDetails() {
 			token:localStorage.getItem("token"),
 		};
 
-		let response =   await axios.get(`http://localhost:5000/api/v1/products/${id}`)
+		let response =   await axios.get(`https://free-palestine-back-end.onrender.com/api/v1/products/${id}`)
 		.catch((error)=>{
 			console.log(error.response?.data.message);
 			// setIsError(error.response?.data.message);

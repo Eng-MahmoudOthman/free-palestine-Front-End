@@ -28,7 +28,7 @@ export default function RejectedProducts() {
                token:localStorage.getItem("token"),
             };
       
-            let response =   await axios.delete(`http://localhost:5000/api/v1/products/${id}` ,  {headers:header} )
+            let response =   await axios.delete(`https://free-palestine-back-end.onrender.com/api/v1/products/${id}` ,  {headers:header} )
             .catch((error)=>{
                console.log(error.response?.data.message);
                toast.error(error.response?.data.message)

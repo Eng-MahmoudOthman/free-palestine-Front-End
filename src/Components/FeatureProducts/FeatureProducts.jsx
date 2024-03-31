@@ -33,7 +33,7 @@ export default function FeatureProducts() {
          limit = 0
       }
 
-      let response =   await axios.get(`http://localhost:5000/api/v1/products?active=true${keyword}&page=1&limit=${limit}`)
+      let response =   await axios.get(`https://free-palestine-back-end.onrender.com/api/v1/products?active=true${keyword}&page=1&limit=${limit}`)
       .catch((error)=>{
          setError(error.response?.data.message);
          setLoading(false)
@@ -48,7 +48,7 @@ export default function FeatureProducts() {
 
    const fetchData = async(currentPage)=>{
       setLoading(true)
-      await axios.get(`http://localhost:5000/api/v1/products?active=true&page=${currentPage}&limit=50`)
+      await axios.get(`https://free-palestine-back-end.onrender.com/api/v1/products?active=true&page=${currentPage}&limit=50`)
       .then((response)=>{
          // console.log(response?.data?.products);
          setError(null)

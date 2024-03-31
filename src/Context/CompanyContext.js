@@ -16,7 +16,7 @@ export default function CompanyContextProvider(props){
 
    // //& Get All Company By Page :
    // async function getCompany(){
-   //    let response =   await axios.get("http://localhost:5000/api/v1/company")
+   //    let response =   await axios.get("https://free-palestine-back-end.onrender.com/api/v1/company")
    //    .catch((error)=>{
    //       setErrorCompany(error.response?.data.message);
    //    })
@@ -32,7 +32,7 @@ export default function CompanyContextProvider(props){
             token:localStorage.getItem("token"),
          };
    
-         let response =   await axios.get(`http://localhost:5000/api/v1/company` ,  {headers:header} )
+         let response =   await axios.get(`https://free-palestine-back-end.onrender.com/api/v1/company` ,  {headers:header} )
          .catch((error)=>{
             setErrorCompany(error.response?.data.message);
          })

@@ -31,7 +31,7 @@ export default function ConfirmedEmail() {
       const header = {
          token:localStorage.getItem("token")
       }
-      let {data} = await axios.post("http://localhost:5000/api/v1/auth/confirmedEmail" , values ,{ headers:header})
+      let {data} = await axios.post("https://free-palestine-back-end.onrender.com/api/v1/auth/confirmedEmail" , values ,{ headers:header})
       .catch((error)=>{
          toast.error(error.response.data.message)
       })

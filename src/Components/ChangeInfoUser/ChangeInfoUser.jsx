@@ -23,7 +23,7 @@ export default function ChangeInfoUser() {
          token:localStorage.getItem("token"),
       };
    
-      await axios.put("http://localhost:5000/api/v1/auth/changeUserInfo" , values , {headers:header}  )
+      await axios.put("https://free-palestine-back-end.onrender.com/api/v1/auth/changeUserInfo" , values , {headers:header}  )
       .then((response)=>{
          if(response.data.message === "success"){
             toast.success(`${response.data.message} Change User Information`);

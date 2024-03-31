@@ -27,7 +27,7 @@ export default function GetAllUserAdmin() {
 
    async function getAllUsers(){
       setIsLoading(true)
-      let {data} = await axios.get("http://localhost:5000/api/v1/users" , {} , {headers:header})
+      let {data} = await axios.get("https://free-palestine-back-end.onrender.com/api/v1/users" , {} , {headers:header})
       .catch((error)=>{
          // setError(error.response.data.message)
          toast.error(error.response.data.message)
@@ -52,7 +52,7 @@ export default function GetAllUserAdmin() {
 				token:localStorage.getItem("token"),
 			};
 	
-			let response =   await axios.delete(`http://localhost:5000/api/v1/users/${id}` ,  {headers:header} )
+			let response =   await axios.delete(`https://free-palestine-back-end.onrender.com/api/v1/users/${id}` ,  {headers:header} )
 			.catch((error)=>{
 				console.log(error.response?.data.message);
 				setIsError(error.response?.data.message);
