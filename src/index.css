@@ -1,10 +1,9 @@
 
 
 
-/* @import url('https://fonts.googleapis.com/css2?family=Ranga:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
 
 
-/* --main-color: #fa6789; */
 
 :root{
 --main-color: #019292;
@@ -26,14 +25,15 @@
    box-sizing: border-box;
    padding: 0;
    margin: 0;
-   font-family:  cursive ;
+   /* font-family:  cursive ; */
+   font-family: "Oswald", sans-serif;
 }
 html{
    scroll-behavior: smooth;
 }
-body{
-   /* font-family:  cursive ; */
-}
+/* body{
+   font-family:  cursive ;
+} */
 ul{
    list-style: none;
    margin: 0;
