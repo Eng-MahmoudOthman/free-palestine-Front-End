@@ -1,19 +1,27 @@
 {
   "files": {
     "main.css": "/free-palestine-Front-End/static/css/main.2ddcffeb.css",
-    "main.js": "/free-palestine-Front-End/static/js/main.c81e4bbc.js",
-    "static/js/453.53aea69d.chunk.js": "/free-palestine-Front-End/static/js/453.53aea69d.chunk.js",
+    "main.js": "/free-palestine-Front-End/static/js/main.d4ed567e.js",
+    "static/js/453.655c4079.chunk.js": "/free-palestine-Front-End/static/js/453.655c4079.chunk.js",
     "static/media/home2.gif": "/free-palestine-Front-End/static/media/home2.f7a9a268bca13dd42522.gif",
     "static/media/category.gif": "/free-palestine-Front-End/static/media/category.01e764aba6a264b5a266.gif",
     "static/media/Company.gif": "/free-palestine-Front-End/static/media/Company.fce45d18019b22931e46.gif",
     "static/media/home3.gif": "/free-palestine-Front-End/static/media/home3.4564f9791ce5cd09ab94.gif",
     "static/media/home,.gif": "/free-palestine-Front-End/static/media/home,.e38533b7d20f4fc219e0.gif",
     "static/media/fa-solid-900.ttf": "/free-palestine-Front-End/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
+    "static/media/a9.jpg": "/free-palestine-Front-End/static/media/a9.b664ccb4c3472b64b13a.jpg",
+    "static/media/a2.jpg": "/free-palestine-Front-End/static/media/a2.194fc2f7d51c34251726.jpg",
     "static/media/fa-brands-400.ttf": "/free-palestine-Front-End/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
     "static/media/fa-solid-900.woff2": "/free-palestine-Front-End/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
     "static/media/profile 1.png": "/free-palestine-Front-End/static/media/profile 1.0bea8beab8cdf8189dc2.png",
     "static/media/fa-brands-400.woff2": "/free-palestine-Front-End/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/a7.jpg": "/free-palestine-Front-End/static/media/a7.85ad1ddb3283bf314a72.jpg",
     "static/media/fa-regular-400.ttf": "/free-palestine-Front-End/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/a10.jpg": "/free-palestine-Front-End/static/media/a10.27a8f2e40722f7ce41db.jpg",
+    "static/media/a1.jpg": "/free-palestine-Front-End/static/media/a1.cd3a577a08a3ff38051d.jpg",
+    "static/media/a8.jpg": "/free-palestine-Front-End/static/media/a8.0a35337f7fea42a3fa88.jpg",
+    "static/media/a4.jpg": "/free-palestine-Front-End/static/media/a4.48c5c3ee14d2e5b466e9.jpg",
+    "static/media/a6.jpg": "/free-palestine-Front-End/static/media/a6.53feff69f8ae6fdf04f4.jpg",
     "static/media/logo copy.svg": "/free-palestine-Front-End/static/media/logo copy.e436a97b74fa20b4b592f8f18e496a99.svg",
     "static/media/fa-regular-400.woff2": "/free-palestine-Front-End/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
     "static/media/fa-v4compatibility.ttf": "/free-palestine-Front-End/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
@@ -22,11 +30,11 @@
     "static/media/fa-v4compatibility.woff2": "/free-palestine-Front-End/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/free-palestine-Front-End/index.html",
     "main.2ddcffeb.css.map": "/free-palestine-Front-End/static/css/main.2ddcffeb.css.map",
-    "main.c81e4bbc.js.map": "/free-palestine-Front-End/static/js/main.c81e4bbc.js.map",
-    "453.53aea69d.chunk.js.map": "/free-palestine-Front-End/static/js/453.53aea69d.chunk.js.map"
+    "main.d4ed567e.js.map": "/free-palestine-Front-End/static/js/main.d4ed567e.js.map",
+    "453.655c4079.chunk.js.map": "/free-palestine-Front-End/static/js/453.655c4079.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ddcffeb.css",
-    "static/js/main.c81e4bbc.js"
+    "static/js/main.d4ed567e.js"
   ]
 }
