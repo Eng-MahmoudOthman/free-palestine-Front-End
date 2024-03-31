@@ -1,0 +1,587 @@
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Ranga:wght@400;700&display=swap'); */
+
+
+/* --main-color: #fa6789; */
+
+:root{
+--main-color: #019292;
+--btnHover-color: #05b8b8;
+--primary-color: rgb(73, 148, 246);
+--second-color: rgb(52, 123, 216);
+--third-color: rgb(52, 123, 216);
+--main-transition: 0.4s ease;
+-webkit-transition: 0.2s ease;
+-moz-transition: 0.2s ease;
+-ms-transition: 0.2s ease;
+-o-transition: 0.2s ease;
+}
+
+
+
+/*&==========Start Global Rules ===========*/
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: "Ranga", cursive ;
+}
+html{
+   scroll-behavior: smooth;
+}
+body{
+   font-family: "Ranga", cursive ;
+}
+ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+a{
+   text-decoration: none !important;
+   color: white;
+}
+.main-color {
+   color:var(--main-color) !important ;
+}
+.bg-color {
+   background-color:var(--main-color) !important;
+   color: white !important;
+}
+.bg-color:hover {
+   background-color: var(--btnHover-color) !important;
+} 
+.main-header {
+   text-align: center;
+   color: var(--main-color);
+   margin: 40px 0px;
+   font-size: 60px;
+   font-weight: bold;
+}
+/*&==========Ens Global Rules  ===========*/
+
+
+/*Start Media Screen */
+                     /* Mobil Screen */
+@media (max-width: 767px) {
+}
+                     /* Small Screen */
+@media (min-width: 768px) {
+}
+                     /* Medium Screen */
+@media (min-width:992px){
+}
+                     /* Large Screen */
+@media (min-width:1200px){
+}
+/*End Media Screen */
+
+
+
+
+
+/*&==========Start Main Header ===========*/
+
+/*&==========End Main Header ===========*/
+
+
+
+
+
+
+
+
+/*& ========= Start Loading Component ============ */
+   .spinner-border {
+      width: 150px !important;
+      height: 150px !important;
+      border-width: 10px !important;
+      }
+/*& ========== End Loading Component ============ */
+
+
+
+
+
+
+
+
+/*& ========= Start Navbar Component ========= */
+   .navbarContainer a i ,
+   .navbarContainer button i{
+      margin-right: 10px !important;
+   }
+   .navbarContainer a , 
+   .navbarContainer button {
+      font-size: 12px !important;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+      letter-spacing: 0.5px;
+      margin: 0px 5px;
+   }      
+   
+   .nav-link {
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      transition: var(--main-transition);
+      -webkit-transition: var(--main-transition);
+      -moz-transition: var(--main-transition);
+      -ms-transition: var(--main-transition);
+      -o-transition: var(--main-transition);
+   } 
+   .navBtn {
+      display: inline-block;
+      margin: 5px !important;
+   }
+   .nav-link:hover  {
+      background-color:var(--main-color) !important;
+      color: white !important;
+   }
+   .active {
+      background-color:var(--main-color) !important;
+      color: white !important;
+      border: none !important;
+   }
+   .nav-link {
+      margin: 0px 10px !important;
+      padding: 0px 10px ;
+      text-align: center;
+   }
+   .imgCover {
+      width: 35px ;
+      height: 35px;
+      padding: 2px;
+      border: 2px solid #1bb1b1;
+      margin-right: 10px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+   }
+   .navbarContainer a.userName {
+      font-size: 12px !important;
+      text-transform: capitalize;
+      font-family: "Ranga", cursive ;
+      margin: 0px 10px 0px 0px ;
+   }
+
+   .notification {
+      min-width: 20px;
+      min-height: 20px;
+      font-size: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: red;
+      color: white;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      top: -6px;
+      right: -2px;
+      border: 2px solid white;
+}
+/*& ========== End Navbar Component ============ */
+
+
+
+/*& Start Report Component */
+.report-info{
+   font-size: 10px;
+}
+/*& End Report Component */
+
+
+
+/*& Start Btn Div in Layout  */
+.btn-div-back {
+   top: 50px !important;
+   width: 100px !important;
+}
+/*& End Btn Div in Layout  */
+
+
+
+/*&======= Start Slider Home ========*/
+   .parentContainer{
+   width: 70% !important;
+   }
+   .carousel-item{
+   height: 100% !important;
+   }
+   
+   .card {
+   padding: 0 !important;
+   }
+
+   .carousel-inner {
+   height: 300px !important;
+   border-radius: 5px !important;
+   -webkit-border-radius: 5px !important;
+   -moz-border-radius: 5px !important;
+   -ms-border-radius: 5px !important;
+   -o-border-radius: 5px !important;
+   }
+   .imageCover {
+   height: 100% !important;
+   }
+   
+/*&======= End Slider Home ==========*/
+
+
+
+
+
+
+/*&======= Start Alert Error in  Home ==========*/
+.alert  {
+   left: 50% !important;
+   right: 50% !important;
+   transform: translate(-50% , -50%);
+   -webkit-transform: translate(-50% , -50%);
+   -moz-transform: translate(-50% , -50%);
+   -ms-transform: translate(-50% , -50%);
+   -o-transform: translate(-50% , -50%);
+   margin-top: 100px !important;
+}
+/*&======= End Alert Error in  Home ==========*/
+
+
+
+
+
+
+
+
+/*&======= Start Dashboard Home ========*/
+      /*! Start Dashboard */
+      .dashboardHome button{
+         font-size: 12px !important;
+         min-height: 50px !important;
+      }
+      .imageDashBoard {
+         width: 40px;
+         height: 40px;
+         border-radius: 50%;
+         overflow: hidden;
+         -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+         -ms-border-radius: 50%;
+         -o-border-radius: 50%;
+      }
+      /*! End Dashboard */
+
+
+      /*! Side Bar in Dashboard Style : */
+         .dashboard .sidebar {
+            background-color: #f1f2f1;
+            padding: 10px 0px 0px 0px  !important;
+         }
+         .dashboard .sidebar li a {
+            background-color: transparent !important;
+            color: #000000;
+            padding: 4px !important;
+
+            transition: var(--main-transition);
+            -webkit-transition: var(--main-transition);
+            -moz-transition: var(--main-transition);
+            -ms-transition: var(--main-transition);
+            -o-transition: var(--main-transition);
+         }
+
+         .dashboard .sidebar li {
+            width: 100% !important;
+            margin: 2px 0px;
+            transition: var(--main-transition);
+            -webkit-transition: var(--main-transition);
+            -moz-transition: var(--main-transition);
+            -ms-transition: var(--main-transition);
+            -o-transition: var(--main-transition);
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+         }
+         .sidebar .nav li a{
+            padding: 2px !important;
+            margin: 0px !important;
+            font-size: 16px !important;
+         }
+         .dashboard .sidebar li:hover {
+            background-color: #ffffff !important;
+         }
+         .dashboard .sidebar li:hover a {
+            color: var(--main-color) !important;
+         }
+         .dashboard .nav-link {
+            font-size: 18px;
+            margin: 0px 10px !important;
+            padding: 0px 10px ;
+            justify-content:start;
+         }
+         .dashboard .nav-pills {
+            justify-content:center;
+         }
+         .iconBlock {
+            display: block !important;
+            color: #00A5A4;
+         }
+      /*! Side Bar in Dashboard Style : */
+
+
+
+      /*! Start Dashboard User */
+         .dashboardUser button{
+            font-size: 12px !important;
+            min-height: 50px !important;
+         }
+      /*! End Dashboard User */
+
+
+
+      /*! Start Dashboard Product */
+         .dashboardProduct ,
+         .dashboardHome , 
+         .dashboardUser{
+            padding: 15px 6px;
+            margin: 15px 2px !important;
+            background-color: rgb(243, 243, 243);
+            border: 2px solid rgb(216, 216, 216);
+            border-radius: 20px !important;
+            -webkit-border-radius: 20px !important;
+            -moz-border-radius: 20px !important;
+            -ms-border-radius: 20px !important;
+            -o-border-radius: 20px !important;
+         }
+         .dashboardProduct button{
+            font-size: 12px !important;
+            min-height: 50px !important;
+         }
+         .head-image{
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+         }
+         .admin-name{
+            position: relative;
+            text-align: center;
+            font-size: 15px;
+            color: var(--main-color);
+         }
+         .admin-name:before{
+            content: "";
+            position: absolute;
+            width: 40%;
+            height: 4px;
+            background-color: var(--main-color);
+            bottom: -15px;
+            left: 30%;
+            right: 30%;
+         }
+         .admin-name:after{
+            content: "";
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color:var(--main-color);
+            bottom: -28px;
+            left: 50%;
+            right: 50%;
+            transform: translate(-50% , -50%);
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            -webkit-transform: translate(-50% , -50%);
+            -moz-transform: translate(-50% , -50%);
+            -ms-transform: translate(-50% , -50%);
+            -o-transform: translate(-50% , -50%);
+         }
+      /*! End Dashboard Product */
+   /*&=============== End Dashboard Home ====================*/
+
+
+
+
+
+
+
+
+   /*&=============== Start Alert Offline Component ==================== */
+   .network {
+      bottom: 20px !important;
+      left: 20px !important;
+      background-color: #ededed;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      width: 100px !important;
+      padding: 5px;
+      font-size: 8px !important;
+      font-weight: bold;
+   }
+   .warn-approved{
+      font-size: 10px !important;
+      padding: 3px !important;
+      border-radius: 2px !important;
+      -webkit-border-radius: 2px !important;
+      -moz-border-radius: 2px !important;
+      -ms-border-radius: 2px !important;
+      -o-border-radius: 2px !important;
+   }
+   /*&================== End Alert Offline Component ==========================*/
+
+
+
+
+
+
+
+/*^=================================================== Start Media Mobile ============================================== */
+@media (max-width: 990px){
+   .main-header {
+      text-align: center;
+      margin: 20px 0px;
+      font-size: 25px;
+      font-weight: bold;
+   }
+   .carousel-inner {
+      height: 200px !important;
+   }
+   .rowDetails {
+      text-align: center !important;
+   }
+   .form-check {
+      padding-left: 2.5em;
+      margin-bottom: 2.125rem;
+   }
+   .parentContainer{
+      width: 95% !important;
+   }
+
+
+
+
+
+
+
+
+   /*&======== Start Dashboard Home ========*/
+   .sidebar .nav {
+      margin: 10px 10px 0px 10px;
+   }
+   .sidebar .nav li {
+      width: 60px !important;
+      margin: 0px 2px !important;
+      border-radius: 0px;
+      transition: var(--main-transition);
+      -webkit-transition: var(--main-transition);
+      -moz-transition: var(--main-transition);
+      -ms-transition: var(--main-transition);
+      -o-transition: var(--main-transition);
+   }
+   .sidebar .nav li:hover {
+      background-color: rgb(255, 255, 255);
+   }
+   .iconBlock {
+      display: block !important;
+   }
+   /*&======== End Dashboard Home ========*/
+
+
+
+   /*& ========= Start Navbar Component ========= */
+   .navbarContainer a i ,
+   .navbarContainer button i{
+      margin-right: 5px !important;
+   }
+   .navbarContainer a  {
+      font-size: 10px !important;
+   }
+   /*& ========== End Navbar Component ============ */
+}
+/*^=================================================== End Media Mobile ============================================== */
+
+
+
+@media (max-width: 1200px){
+   .sidebar .nav li a{
+      padding: 2px !important;
+      margin: 0px !important;
+      font-size: 12px !important;
+   }
+}
+
+
+
+/*& ========== Start Home Component ============ */
+.totalProduct {
+   font-size: 12px !important;
+}
+.card-text {
+   font-size: 12px !important;
+}
+/*& ========== End Home Component ============== */
+
+
+
+/*& Start Profile user Component */
+   .profile-p {
+      font-size: 10px ;
+   }
+   .head-profile {
+      font-size: 12px ;
+   }
+   .card-deleted .icon-deleted {
+      top: 30%;
+      left: 50%;
+      right: 0px;
+      bottom: 0px;
+      width: 60%;
+      height: 60%;
+      transform: translate(-50% , -50%);
+   }
+   .card-deleted .icon-deleted .icon{
+      font-size: 130px;
+      color: rgb(255, 0, 0);
+   }
+/*& End Profile user Component */
+
+
+
+/*& Start Edit Profile Component */
+   .editProfile a:hover i {
+      color: white !important;
+   }
+   .editProfile .edit {
+      font-size: 10px !important;
+      font-weight: bold;
+   }
+/*& End Edit Profile Component */
+
+
+/*& ========== Start Footer Component ============== */
+footer .developer  {
+   font-size: 10px;
+}
+.footer-info {
+   font-size: 14px ;
+}
+/*& ========== End Footer Component ============== */
+
