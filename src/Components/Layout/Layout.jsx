@@ -9,10 +9,6 @@ export default function Layout(){
    return (
       <>
          <Navbar/>
-         {/* <div className="fixed-top btn-div-back">
-            <button className="btn btn-success m-1 opacity-50" onClick={()=>{window.history.back()}}> <i class="fa-solid fa-left-long"></i></button>
-            <button className="btn btn-success m-1 opacity-50" onClick={()=>{window.history.forward()}}><i class="fa-solid fa-right-long"> </i></button>
-         </div> */}
 
          <Outlet></Outlet>
          
@@ -27,6 +23,7 @@ export default function Layout(){
                <i className="fa-solid fa-wifi p-1 "></i> Network Online
             </div>
          </Online>
+         
          <Footer/>
       </>
    )
