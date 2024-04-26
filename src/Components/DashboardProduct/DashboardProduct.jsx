@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import image  from "../../Assets/images/home2.gif"
 import { Link } from 'react-router-dom'
+import { UserContext } from '../../Context/UserContext.js'
 
 export default function DashboardProduct() {
+   const {user , setUser , userToken , setUserToken , admin , setAdmin , moderator ,  setModerator , setProductSpecificUser} = useContext( UserContext )
+
    return (
       <>
          <div className='d-flex justify-content-between align-items-center m-1'>
             <div>
                <h1 className='h4 fw-bold main-color'>Dashboard Products</h1>
-               <h3 className='admin-name'>Mahmoud Othman</h3>
+               <h3 className='admin-name'>{user.name?.split(" ").slice(0,2).join(" ")}</h3>
             </div>
             <div className='w-25 '>
                <img src={image} alt="product" className='w-100 head-image'/>
