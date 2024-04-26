@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/free-palestine-Front-End/static/css/main.2ddcffeb.css",
-    "main.js": "/free-palestine-Front-End/static/js/main.78436eee.js",
+    "main.js": "/free-palestine-Front-End/static/js/main.ef658671.js",
     "static/js/453.655c4079.chunk.js": "/free-palestine-Front-End/static/js/453.655c4079.chunk.js",
     "static/media/home2.gif": "/free-palestine-Front-End/static/media/home2.f7a9a268bca13dd42522.gif",
     "static/media/category.gif": "/free-palestine-Front-End/static/media/category.01e764aba6a264b5a266.gif",
@@ -30,11 +30,11 @@
     "static/media/fa-v4compatibility.woff2": "/free-palestine-Front-End/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/free-palestine-Front-End/index.html",
     "main.2ddcffeb.css.map": "/free-palestine-Front-End/static/css/main.2ddcffeb.css.map",
-    "main.78436eee.js.map": "/free-palestine-Front-End/static/js/main.78436eee.js.map",
+    "main.ef658671.js.map": "/free-palestine-Front-End/static/js/main.ef658671.js.map",
     "453.655c4079.chunk.js.map": "/free-palestine-Front-End/static/js/453.655c4079.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ddcffeb.css",
-    "static/js/main.78436eee.js"
+    "static/js/main.ef658671.js"
   ]
 }
